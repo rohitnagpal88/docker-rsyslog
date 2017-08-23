@@ -9,4 +9,4 @@ docker run -d -p 514:514/udp -v <path-to-conf>/rsyslog.conf:/etc/rsyslog.conf rs
 
 Run directly from build image :-
 
-docker run -d -p 514:514/udp -v <path-to-conf>/rsyslog.conf:/etc/rsyslog.conf rohitnagpal88/rsyslog
+docker run -d -p 514:514/udp -v <path-to-conf>/rsyslog.conf:/etc/rsyslog.conf rohitnagpal88/rsyslog:8.29.0
